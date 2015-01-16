@@ -1,12 +1,12 @@
 // Core variables and mixins
 @import "variables.less";
-@import "bitpay.less";
+@import "bitpay-variables.less"; //bitpay
 @import "mixins.less";
+@import "bitpay-mixins.less"; //bitpay
 
-// Reset and dependencies
+// Reset
 @import "normalize.less";
 @import "print.less";
-@import "glyphicons.less";
 
 // Core CSS
 @import "scaffolding.less";
@@ -19,6 +19,7 @@
 
 // Components
 @import "component-animations.less";
+@import "glyphicons.less";
 @import "dropdowns.less";
 @import "button-groups.less";
 @import "input-groups.less";
@@ -36,7 +37,6 @@
 @import "media.less";
 @import "list-group.less";
 @import "panels.less";
-@import "responsive-embed.less";
 @import "wells.less";
 @import "close.less";
 
@@ -49,3 +49,8 @@
 // Utility classes
 @import "utilities.less";
 @import "responsive-utilities.less";
+
+
+//BitPay customizations
+@import "bitpay.less";
+@import "bitpay-animations.less";
